@@ -1650,12 +1650,12 @@ section h4 {
   align-items: center; }
 
 .project--solo {
-  border-left: 12px #A5677A solid;
-  color: #A5677A; }
+  border-left: 12px #00BCD4 solid;
+  color: #00BCD4; }
 
 .project--team {
-  border-left: 12px #4F3C5F solid;
-  color: #4F3C5F; }
+  border-left: 12px #19c219 solid;
+  color: #19c219; }
 
 .project__title {
   font-size: 18px;
@@ -1693,12 +1693,12 @@ section h4 {
   background: #f0f0f0; }
 
 .project-type--solo {
-  border-bottom: #A5677A 4px solid;
-  color: #A5677A; }
+  border-bottom: #00BCD4 4px solid;
+  color: #00BCD4; }
 
 .project-type--team {
-  border-bottom: #4F3C5F 4px solid;
-  color: #4F3C5F; }
+  border-bottom: #19c219 4px solid;
+  color: #19c219; }
 
 .techlist {
   text-align: center;
@@ -1771,3 +1771,16 @@ section h4 {
   font-size: 14px; }
 
 /*# sourceMappingURL=styles.css.map */
+
+/*** Personal Styles **/
+.project-dev {
+  border-left: 12px #4F3C5F solid;
+  color: #4F3C5F;
+}
+.project-design {
+  border-left: 12px #A5677A solid;
+  color: #A5677A;
+}
+.techlist__icon:hover {
+  color: #19c219;
+}
